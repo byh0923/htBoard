@@ -1,0 +1,102 @@
+{
+	"categoryId" : 0,
+	"categoryName" : "성별",
+	"parentId" : null,
+	"child" : [
+		{
+		"categoryId":1,
+		"categoryName":"남자",
+		"parentId":0,
+		"child":
+		[
+			{
+			"categoryId":2,
+			"categoryName":"엑소",
+			"parentId":"1",
+			"child":[
+				{
+					"categoryId":3,
+					"categoryName":"공지사항",
+					"parentId":"2",
+					"board":[{"boardId":1}]
+				},
+				{
+					"categoryId":4,
+					"categoryName":"첸",
+					"parentId":"2",
+					"board":[{"boardId":2}]
+				},
+				{
+					"categoryId":5,
+					"categoryName":"백현",
+					"parentId":"2",
+					"board":[{"boardId":3}]
+				},
+				{
+					"categoryId":6,
+					"categoryName":"시우민",
+					"parentId":"2",
+					"board":[{"boardId":4}]
+				}
+			]
+			},
+			{
+			"categoryId":7,
+			"categoryName":"방탄소년단",
+			"parentId":"1",
+			"child":[
+				{
+					"categoryId":8,
+					"categoryName":"공지사항",
+					"parentId":"7",
+					"board":[{"boardId":5}]
+				},
+				{
+					"categoryId":9,
+					"categoryName":"익명게시판",
+					"parentId":"7",
+					"board":[{"boardId":6}]
+				},
+				{
+					"categoryId":10,
+					"categoryName":"뷔",
+					"parentId":"7",
+					"board":[{"boardId":7}]
+				}
+			]
+			}
+	]},
+	{
+		"categoryId" : 11,
+		"categoryName" : "여자",
+		"parentId" : 0,
+		"child" : [
+					{
+					"categoryId" : 12,
+					"categoryName" : "블랙핑크",
+					"parentId" : 11,
+						"child" : [
+						{
+							"categoryId" : 13,
+							"categoryName" : "공지사항",
+							"parentId" : 12,
+							"board" : [{"boardId" : 8 }]
+						},
+						{
+							"categoryId" : 9,
+							"categoryName" : "익명게시판",
+							"parentId" : 12,
+							"board" : [{"boardId" : 6 }]
+						},
+						{
+							"categoryId" : 15,
+							"categoryName" : "로제",
+							"parentId" : 12,
+							"board" : [{"boardId" : 9 }]
+						}
+						]
+				}
+		]
+	}
+	]
+}
